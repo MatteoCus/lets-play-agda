@@ -32,7 +32,7 @@ Determine where the difficulty is in stating that `_++V_` is associative.
 ::: More :::
 Let `xs : Vector A n`, `ys : Vector A m` and `zs : Vector A o`.
 
-Then `(xs ++V ys) ++V zs` is of type `Vector A ((n + m) + o`, whereas `xs ++V (ys ++V zs)`
+Then `(xs ++V ys) ++V zs` is of type `Vector A ((n + m) + o)`, whereas `xs ++V (ys ++V zs)`
 is of type `Vector A (n + (m + o))`.
 
 These two types are equal, but not by definition. Hence the expression "`(xs
